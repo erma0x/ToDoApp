@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Cantata+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Asul", serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background-image: url("./assets/3d-yellow-abstract-3840x2160-12046.jpg");
+    background-size: cover;
+    background-position: center;
+}

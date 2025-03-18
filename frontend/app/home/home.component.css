@@ -1,0 +1,21 @@
+.descriptionText{
+    padding-left: 25px;
+    font-style: oblique;
+}
+
+.btnRoute{
+    margin-left: 25px;
+
+    width: 140px;
+    height: 30px;
+    background-color: #A94A4A;
+    color: white;
+    cursor: pointer;
+
+    border: 0px;
+    border-radius: 8px;
+}
+
+li a:hover {
+    background-color: #889E73;
+}

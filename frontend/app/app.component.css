@@ -1,0 +1,65 @@
+/* HOME ELEMENTS */
+
+.titleContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 94vh;
+
+  padding-left: 10%;
+}
+
+.title{
+  font-size: 90px;
+  font-weight: bold;
+  
+  border-left: 15px solid #889E73;
+  padding: 10px;
+
+  margin-bottom: 1rem;
+}
+
+/*_____________________________________________*/
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 6vh;
+
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ddba69;
+
+  padding-left: 2px;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+li a:hover {
+  background-color: #889E73;
+}
